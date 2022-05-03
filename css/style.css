@@ -1,0 +1,179 @@
+
+
+.rotulo{
+  width:auto;
+  height:120px;
+  background-color: rgba(16,22,34,255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.botaoRotulo{
+    margin: 5px;
+	color: inherit;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius:5px;
+    width: 60px;
+    background-color:rgba(234,56,72,255);
+    border: none;
+}
+
+.valLogo{ 
+    width:120px;
+    height:90px;
+}
+
+.style-box p{
+    word-break: break-all;
+    white-space: normal;
+    font-weight: bold;
+    color: #fff;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    
+    
+}
+
+.style-box h2{
+    font-family:'Montserrat', sans-serif;;
+    font-weight: bold,800;
+    
+  
+}
+
+
+.style-box {
+   margin-bottom: 20px;
+   margin-left:50px;
+   width:250px;
+   height:350px;
+   height:auto;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   border: solid;
+   padding:20px;
+   border: 8px solid #000000;
+border-radius: 24px 24px 0px 0px;
+   background-color:rgba(234,56,72,255);
+   transition: 1s;
+   
+}
+
+.style-box:hover,style-box h2{
+    width:350px;
+   
+   text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, -4px 22px 5px rgba(0,0,0,0.7);
+
+
+}
+
+#listaAgents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    background-color: rgba(16,22,34,255);
+
+}
+
+#agent-image {
+    border: 10px double rgba(0,0,0,0.86);
+border-radius: 27px 27px 27px 27px;
+    width: 150px;
+    height: 150px;
+    background-color:rgba(16,22,34,255);
+}
+
+.abilities1{
+    width: 30px;
+    height: 30px;
+    border: 10px double rgba(0,0,0,0.86);
+    border-radius: 27px 27px 27px 27px;  
+    background-color:rgba(16,22,34,255);
+    margin: 10px 0;
+}
+
+.agente0{
+    background-image:url(../img/fade_artwork2.png);
+    background-repeat: no-repeat;   
+}
+
+.agente1{
+    background-image:url(../img/breach.png);
+}
+.agente2{
+    background-image:url(../img/raze.png);
+}
+
+.agente3{
+    background-image:url(../img/Chamber_KeyArt.png);
+    background-repeat: no-repeat;
+}
+
+.agente4{
+    background-image:url(../img/KAYO.png);
+}
+
+.agente5{
+    background-image:url(../img/skye.png);
+}
+
+.agente6{
+    background-image:url(../img/cipher.png);
+}
+
+.agente7{
+    background-image:url(../img/Sova_artwork.png);
+}
+
+.agente8{
+    background-image:url(../img/KillJoy.png);
+    background-repeat: no-repeat;
+    margin-right: 6px;
+}
+
+.agente9{
+    background-image:url(../img/Viper.png);
+}
+
+.agente10{
+    background-image:url(../img/Phx.png);
+}
+
+.agente11{
+    background-image:url(../img/Astra.png);
+}
+
+.agente12{
+    background-image:url(../img/Brimstone.png);
+}
+
+.agente13{
+    background-image:url(../img/Neon.png);
+}
+
+.agente14{
+ background-image:url(../img/yoru.png);
+}
+
+.agente15{
+    background-image:url(../img/sage.png);
+}
+
+.agente16{
+    background-image:url(../img/Reyna.png);
+}
+
+.agente17{
+    background-image:url(../img/Omen.png);
+}
+
+.agente18{
+    background-image:url(../img/jett.png);
+}
